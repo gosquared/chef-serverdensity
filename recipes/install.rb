@@ -27,7 +27,7 @@ when "debian", "ubuntu"
   apt_repository "serverdensity" do
     key "https://www.serverdensity.com/downloads/boxedice-public.key"
     uri "https://www.serverdensity.com/downloads/linux/deb"
-    distribution "all"
+    distributions "all"
     components ["main"]
     action :add
   end
