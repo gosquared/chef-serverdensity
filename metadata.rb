@@ -7,15 +7,8 @@ long_description   IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version            "1.0.1"
 
 depends "apt"
-depends "yum"
 
 supports "ubuntu"
-supports "debian"
-supports "centos"
-supports "redhat"
-supports "fedora"
-supports "amazon"
-supports "scientific"
 
 recipe "serverdensity::default", "Default"
 recipe "serverdensity::install", "Installs, configures and starts sd-agent"
